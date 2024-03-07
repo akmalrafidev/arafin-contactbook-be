@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const Models = require("./src/models");
-const sequelize = require("./src/utils/database");
+const sequelize = require("./src/utils/databaseInitialization");
 const port = 1411;
 
 (async () => {
